@@ -1,0 +1,174 @@
+07:10:25.824 [main] INFO  org.server.Main - сервер стартовал
+08:03:13.553 [main] INFO  org.server.Main - сервер стартовал
+09:20:51.866 [main] INFO  org.server.Main - бд подключена
+09:20:51.896 [main] INFO  org.server.Main - сервер стартовал
+09:21:08.454 [main] INFO  org.server.Main - бд подключена
+09:48:27.440 [main] INFO  org.server.Main - бд подключена
+09:48:27.461 [main] INFO  org.server.Main - сервер стартовал
+09:54:10.434 [main] INFO  org.server.Main - бд подключена
+09:54:10.461 [main] INFO  org.server.Main - сервер стартовал
+09:54:50.281 [main] INFO  org.server.Main - бд подключена
+09:54:50.306 [main] INFO  org.server.Main - сервер стартовал
+09:55:14.785 [main] INFO  org.server.Main - бд подключена
+09:55:14.815 [main] INFO  org.server.Main - сервер стартовал
+09:59:08.345 [main] INFO  org.server.Main - бд подключена
+09:59:24.072 [main] INFO  org.server.Main - бд подключена
+10:03:44.790 [main] INFO  org.server.Main - бд подключена
+10:04:34.813 [main] INFO  org.server.Main - бд подключена
+10:04:51.268 [main] INFO  org.server.Main - бд подключена
+10:05:03.017 [main] INFO  org.server.Main - бд подключена
+10:05:14.378 [main] INFO  org.server.Main - бд подключена
+10:05:14.399 [main] INFO  org.server.Main - сервер стартовал
+10:05:20.393 [main] INFO  org.server.Main - бд подключена
+10:05:20.413 [main] INFO  org.server.Main - сервер стартовал
+10:05:34.869 [main] INFO  org.server.Main - бд подключена
+10:07:00.528 [main] INFO  org.server.Main - бд подключена
+10:07:13.224 [main] INFO  org.server.Main - бд подключена
+10:07:23.208 [main] INFO  org.server.Main - бд подключена
+10:07:23.230 [main] INFO  org.server.Main - сервер стартовал
+10:07:31.980 [main] INFO  org.server.Main - бд подключена
+10:10:09.284 [main] INFO  org.server.Main - бд подключена
+10:10:09.313 [main] INFO  org.server.Main - сервер стартовал
+10:11:51.782 [main] INFO  org.server.Main - бд подключена
+10:11:51.804 [main] INFO  org.server.Main - сервер стартовал
+10:12:08.806 [main] INFO  org.server.Main - бд подключена
+10:12:08.830 [main] INFO  org.server.Main - сервер стартовал
+10:18:21.175 [main] INFO  org.server.Main - бд подключена
+10:19:39.097 [main] INFO  org.server.Main - бд подключена
+10:19:52.624 [main] INFO  org.server.Main - бд подключена
+10:21:25.110 [main] INFO  org.server.Main - бд подключена
+10:21:51.611 [main] INFO  org.server.Main - бд подключена
+10:22:04.782 [main] INFO  org.server.Main - бд подключена
+10:25:18.843 [main] INFO  org.server.Main - бд подключена
+10:27:43.433 [main] INFO  org.server.Main - бд подключена
+10:27:43.463 [main] INFO  org.server.Main - сервер стартовал
+10:28:10.285 [main] INFO  org.server.Main - бд подключена
+10:29:13.529 [main] INFO  org.server.Main - бд подключена
+10:29:38.327 [main] INFO  org.server.Main - бд подключена
+10:38:25.561 [main] INFO  org.server.Main - бд подключена
+10:38:25.587 [main] INFO  org.server.Main - сервер стартовал
+10:39:04.381 [main] INFO  org.server.Main - бд подключена
+10:39:04.413 [main] INFO  org.server.Main - сервер стартовал
+11:10:31.722 [main] INFO  org.server.Main - бд подключена
+11:10:53.330 [main] INFO  org.server.Main - бд подключена
+11:10:53.364 [main] INFO  org.server.Main - сервер стартовал
+11:20:36.167 [main] INFO  org.server.Main - сервер стартовал
+11:20:56.184 [main] INFO  org.server.Main - сервер принял подключение
+11:20:56.199 [main] INFO  org.server.Main - данные присланы, команда register
+11:20:56.206 [main] DEBUG org.reflections.Reflections - going to scan these urls: [file:/D:/laba6/Utils/target/classes/]
+11:20:56.241 [main] INFO  org.reflections.Reflections - Reflections took 28 ms to scan 1 urls, producing 1 keys and 13 values 
+11:20:56.258 [main] INFO  org.server.Main - ответ отправлен
+11:27:01.016 [main] INFO  org.server.Main - сервер стартовал
+11:27:09.249 [main] INFO  org.server.Main - сервер принял подключение
+11:27:09.263 [main] INFO  org.server.Main - данные присланы, команда show
+11:27:09.271 [main] DEBUG org.reflections.Reflections - going to scan these urls: [file:/D:/laba6/Utils/target/classes/]
+11:27:09.306 [main] INFO  org.reflections.Reflections - Reflections took 29 ms to scan 1 urls, producing 1 keys and 13 values 
+11:27:09.321 [main] INFO  org.server.Main - ответ отправлен
+11:27:15.385 [main] INFO  org.server.Main - данные присланы, команда register
+11:27:15.386 [main] ERROR org.server.Main - сервер сдох =) null
+11:28:25.958 [main] INFO  org.server.Main - сервер стартовал
+11:28:29.678 [main] INFO  org.server.Main - сервер принял подключение
+11:28:29.692 [main] INFO  org.server.Main - данные присланы, команда show
+11:28:29.702 [main] INFO  org.server.Main - ответ отправлен
+11:28:33.842 [main] INFO  org.server.Main - данные присланы, команда register
+11:28:33.843 [main] ERROR org.server.Main - сервер сдох =) null
+11:29:58.830 [main] INFO  org.server.Main - сервер стартовал
+11:30:08.603 [main] INFO  org.server.Main - сервер принял подключение
+11:30:08.617 [main] INFO  org.server.Main - данные присланы, команда show
+11:30:08.627 [main] INFO  org.server.Main - ответ отправлен
+11:30:12.096 [main] INFO  org.server.Main - данные присланы, команда show
+11:30:12.097 [main] INFO  org.server.Main - ответ отправлен
+11:30:15.539 [main] INFO  org.server.Main - данные присланы, команда register
+11:30:15.543 [main] INFO  org.server.Main - ответ отправлен
+11:33:25.122 [main] INFO  org.server.Main - сервер стартовал
+11:33:31.122 [main] INFO  org.server.Main - сервер принял подключение
+11:33:31.134 [main] INFO  org.server.Main - данные присланы, команда show
+11:33:31.144 [main] INFO  org.server.Main - ответ отправлен
+11:33:34.401 [main] ERROR org.server.Main - ошибка чтения Connection reset
+11:33:34.401 [main] ERROR org.server.Main - сервер сдох =) null
+11:34:04.778 [main] INFO  org.server.Main - сервер стартовал
+11:34:10.444 [main] ERROR org.server.Main - сервер сдох =) Connection reset
+11:34:21.951 [main] INFO  org.server.Main - сервер стартовал
+11:34:29.352 [main] INFO  org.server.Main - сервер принял подключение
+11:34:29.366 [main] INFO  org.server.Main - данные присланы, команда show
+11:34:29.381 [main] INFO  org.server.Main - ответ отправлен
+11:49:00.522 [main] INFO  org.server.Main - сервер стартовал
+11:49:14.153 [main] INFO  org.server.Main - сервер принял подключение
+11:49:14.166 [main] INFO  org.server.Main - данные присланы, команда show
+11:49:14.181 [main] INFO  org.server.Main - ответ отправлен
+11:49:29.131 [main] INFO  org.server.Main - данные присланы, команда add
+11:49:29.133 [main] INFO  org.server.Main - ответ отправлен
+11:49:31.349 [main] INFO  org.server.Main - данные присланы, команда show
+11:49:31.351 [main] INFO  org.server.Main - ответ отправлен
+11:51:01.547 [main] INFO  org.server.Main - сервер стартовал
+11:51:11.710 [main] INFO  org.server.Main - сервер принял подключение
+11:51:11.727 [main] INFO  org.server.Main - данные присланы, команда show
+11:51:11.742 [main] INFO  org.server.Main - ответ отправлен
+11:51:27.769 [main] INFO  org.server.Main - данные присланы, команда add
+11:51:27.779 [main] INFO  org.server.Main - ответ отправлен
+11:51:29.543 [main] INFO  org.server.Main - данные присланы, команда show
+11:51:29.545 [main] INFO  org.server.Main - ответ отправлен
+11:52:15.126 [main] INFO  org.server.Main - сервер стартовал
+11:52:27.223 [main] INFO  org.server.Main - сервер принял подключение
+11:52:27.236 [main] INFO  org.server.Main - данные присланы, команда show
+11:52:27.254 [main] INFO  org.server.Main - ответ отправлен
+11:52:47.774 [main] INFO  org.server.Main - данные присланы, команда add
+11:52:47.783 [main] INFO  org.server.Main - ответ отправлен
+11:52:49.027 [main] INFO  org.server.Main - данные присланы, команда show
+11:52:49.028 [main] INFO  org.server.Main - ответ отправлен
+11:59:05.747 [main] INFO  org.server.Main - сервер стартовал
+11:59:15.742 [main] INFO  org.server.Main - сервер стартовал
+11:59:28.249 [main] INFO  org.server.Main - сервер принял подключение
+11:59:28.261 [main] INFO  org.server.Main - данные присланы, команда show
+11:59:28.275 [main] INFO  org.server.Main - ответ отправлен
+11:59:42.405 [main] INFO  org.server.Main - данные присланы, команда add
+11:59:42.411 [main] INFO  org.server.Main - ответ отправлен
+11:59:43.450 [main] INFO  org.server.Main - данные присланы, команда show
+11:59:43.452 [main] INFO  org.server.Main - ответ отправлен
+12:22:45.066 [main] INFO  org.server.Main - сервер стартовал
+12:22:54.671 [main] INFO  org.server.Main - сервер принял подключение
+12:22:54.683 [main] INFO  org.server.Main - данные присланы, команда show
+12:22:54.699 [main] INFO  org.server.Main - ответ отправлен
+12:23:04.394 [main] INFO  org.server.Main - данные присланы, команда clear
+12:23:04.399 [main] INFO  org.server.Main - ответ отправлен
+12:23:05.853 [main] INFO  org.server.Main - данные присланы, команда show
+12:23:05.854 [main] INFO  org.server.Main - ответ отправлен
+12:31:33.037 [main] INFO  org.server.Main - сервер стартовал
+12:31:46.963 [main] INFO  org.server.Main - сервер стартовал
+12:31:58.271 [pool-1-thread-1] ERROR org.server.Main - Connection reset
+12:35:21.055 [main] INFO  org.server.Main - сервер стартовал
+12:35:24.151 [pool-1-thread-1] INFO  org.server.Main - юзер подключен
+12:35:28.692 [pool-2-thread-1] INFO  org.server.Main - сервер принял подключение
+12:35:28.705 [pool-2-thread-1] INFO  org.server.Main - данные присланы, команда show
+12:35:28.719 [pool-2-thread-1] INFO  org.server.Main - ответ отправлен
+12:37:17.031 [main] INFO  org.server.Main - сервер стартовал
+12:37:19.908 [pool-1-thread-1] INFO  org.server.Main - юзер подключен
+12:37:25.273 [pool-2-thread-1] INFO  org.server.Main - сервер принял подключение
+12:37:25.285 [pool-2-thread-1] INFO  org.server.Main - данные присланы, команда show
+12:37:25.298 [pool-2-thread-1] INFO  org.server.Main - ответ отправлен
+12:37:29.800 [pool-2-thread-1] ERROR org.server.Main - ошибка при обработке или чтении: Connection reset
+12:37:35.039 [pool-1-thread-1] INFO  org.server.Main - юзер подключен
+12:37:39.692 [pool-2-thread-1] INFO  org.server.Main - сервер принял подключение
+12:37:39.706 [pool-2-thread-1] INFO  org.server.Main - данные присланы, команда show
+12:37:39.707 [pool-2-thread-1] INFO  org.server.Main - ответ отправлен
+12:40:09.037 [main] INFO  org.server.Main - сервер стартовал
+12:40:12.474 [pool-1-thread-1] INFO  org.server.Main - юзер подключен
+12:40:17.222 [pool-2-thread-1] INFO  org.server.Main - сервер принял подключение
+12:40:17.227 [pool-2-thread-1] INFO  org.server.Main - данные присланы, команда show
+12:40:17.239 [pool-2-thread-1] INFO  org.server.Main - ответ отправлен
+12:40:18.448 [pool-2-thread-1] ERROR org.server.Main - ошибка при обработке или чтении: invalid type code: AC
+12:41:16.022 [main] INFO  org.server.Main - сервер стартовал
+12:41:19.771 [pool-1-thread-1] INFO  org.server.Main - юзер подключен
+12:41:24.895 [pool-2-thread-1] ERROR org.server.Main - ошибка при обработке или чтении: invalid stream header: 73720016
+12:41:41.287 [main] INFO  org.server.Main - сервер стартовал
+12:41:44.456 [pool-1-thread-1] INFO  org.server.Main - юзер подключен
+12:41:51.850 [pool-2-thread-1] INFO  org.server.Main - сервер принял подключение
+12:41:51.856 [pool-2-thread-1] INFO  org.server.Main - данные присланы, команда show
+12:41:51.867 [pool-2-thread-1] INFO  org.server.Main - ответ отправлен
+12:41:53.043 [pool-2-thread-1] ERROR org.server.Main - ошибка при обработке или чтении: invalid type code: AC
+12:43:33.209 [main] INFO  org.server.Main - сервер стартовал
+12:43:35.471 [pool-1-thread-1] INFO  org.server.Main - юзер подключен
+12:43:39.806 [pool-2-thread-1] INFO  org.server.Main - сервер принял подключение
+12:43:39.811 [pool-2-thread-1] INFO  org.server.Main - данные присланы, команда show
+12:43:39.823 [pool-2-thread-1] INFO  org.server.Main - ответ отправлен
+12:43:40.979 [pool-2-thread-1] ERROR org.server.Main - ошибка при обработке или чтении: invalid type code: AC
