@@ -13,11 +13,8 @@ public class RemoveLower extends Command{
         HumanBeing h = (HumanBeing) args[0];
 
         Tree.getTreeManager().getHumanBeings().stream().filter(u -> h.compareTo(u) < 0).forEach(u -> {
-            try {
-                DataBase.getInstance().Remove(u.getId());
+            if(DataBase.getHumanBeingStorage().Remove(u)) {
                 Tree.getTreeManager().getHumanBeings().remove(u);
-            } catch (Exception e) {
-
             }
         });
 

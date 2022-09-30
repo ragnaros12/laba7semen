@@ -13,11 +13,8 @@ public class RemoveById extends Command {
     public Response Execute(Object[] args, Integer id1) {
         Long id = (Long) args[0];
         Tree.getTreeManager().getHumanBeings().stream().filter(u -> Objects.equals(u.getId(), id)).forEach(u -> {
-            try {
-                DataBase.getInstance().Remove(u.getId());
+            if(DataBase.getHumanBeingStorage().Remove(u)) {
                 Tree.getTreeManager().getHumanBeings().remove(u);
-            } catch (Exception e) {
-
             }
         });
         return new Response("удаление успешно");

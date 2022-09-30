@@ -8,8 +8,6 @@ import com.helper.objects.builders.HumanBeingBuilder;
 import org.client.Console.ConsoleReadable;
 import org.client.Console.ConsoleWriteable;
 
-import java.io.Console;
-import java.io.IOException;
 import java.util.*;
 
 public class Main {
@@ -21,18 +19,16 @@ public class Main {
         ConsoleWriteable console = new ConsoleWriteable();
         String login = "", password = "";
 
-
-
         try {
             while (true) {
                 console.Write("введите команду");
                 String[] comma = consoleRead.read().split(",");
                 String name = comma[0].toLowerCase(Locale.ROOT);
                 if(name.equals("login")){
-                    console.Write("введите логин");
-                    login = consoleRead.read();
-                    console.Write("введеите пароль");
-                    password = consoleRead.read();
+                    if(comma.length > 2){
+                        login = comma[1];
+                        password = comma[2];
+                    }
                 }
                 else {
                     Command cm = CommandManager.find(name);
@@ -55,7 +51,8 @@ public class Main {
                         }
                         client.Send(new CommandInfo(cm.getName(), arguments.toArray(), login, password));
                         console.Write(client.Receive().toString());
-                    } else {
+                    }
+                    else {
                         console.Write("недостаточно аргументов");
                     }
                 }

@@ -11,16 +11,12 @@ public class Add extends Command{
     @Override
     public Response Execute(Object[] args, Integer id) {
         HumanBeing h = (HumanBeing) args[0];
-        System.out.println("iddd: " + id);
         h.setIdCreator(id);
-        try {
-            DataBase.getInstance().Add(h);
+        if(DataBase.getHumanBeingStorage().Add(h)) {
             Tree.getTreeManager().Add(h);
             return new Response("добавление успешно");
         }
-        catch (Exception e){
-            return new Response("добавление неудачно");
-        }
+        return new Response("добавление неудачно");
     }
 
     @Override

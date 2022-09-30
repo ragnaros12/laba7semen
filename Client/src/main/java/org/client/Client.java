@@ -11,7 +11,6 @@ import java.nio.channels.SocketChannel;
 import java.util.Arrays;
 
 public class Client {
-
     String host;
     int ip;
     SocketChannel socketChannel;
@@ -25,9 +24,7 @@ public class Client {
     public void connect() throws IOException {
         socketChannel = SocketChannel.open();
         socketChannel.connect(new InetSocketAddress(host, ip));
-
     }
-
     public void Send(CommandInfo commandInfo) throws IOException {
         if(outputStream == null){
             outputStream = new ObjectOutputStream(socketChannel.socket().getOutputStream());

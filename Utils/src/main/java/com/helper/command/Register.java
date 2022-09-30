@@ -7,14 +7,10 @@ import com.helper.objects.ArgsType;
 public class Register extends Command{
     @Override
     public Response Execute(Object[] args, Integer id) {
-        try {
-            DataBase.getInstance().AddUser(args[0].toString(), args[1].toString());
+        if(DataBase.AddUser(args[0].toString(), args[1].toString())){
             return new Response("успешное создание пользователя");
         }
-        catch (Exception e){
-            e.printStackTrace();
-            return new Response("ошибка регистрации");
-        }
+        return new Response("ошибка регистрации");
     }
 
     @Override

@@ -10,7 +10,6 @@ public class ConsoleReadable implements com.helper.io.Readable<String> {
     public String read() {
         return scanner.next();
     }
-
     @Override
     public void close() {
 

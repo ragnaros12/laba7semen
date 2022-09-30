@@ -1,10 +1,6 @@
 package com.helper;
 
 import com.helper.command.*;
-import org.reflections.Reflections;
-import org.reflections.scanners.SubTypesScanner;
-
-import java.lang.reflect.Array;
 import java.util.*;
 
 public class CommandManager {
@@ -12,10 +8,20 @@ public class CommandManager {
 
     static {
         commands = new ArrayList<>();
+
         commands.add(new Show());
         commands.add(new Register());
         commands.add(new Add());
         commands.add(new Clear());
+        commands.add(new Help());
+        commands.add(new History());
+        commands.add(new Info());
+        commands.add(new MinByWeaponType());
+        commands.add(new PrintDescending());
+        commands.add(new RemoveById());
+        commands.add(new RemoveGreater());
+        commands.add(new RemoveLower());
+        commands.add(new Update());
     }
     private static final ArrayDeque<String> lasts = new ArrayDeque<>();
 
@@ -29,8 +35,7 @@ public class CommandManager {
 
     public static Response Execute(CommandInfo info){
         boolean is = false;
-        Integer id = DataBase.getInstance().Login(info.getLogin(), info.getPassword());
-        System.out.println("id: " + id);
+        Integer id = DataBase.Login(info.getLogin(), info.getPassword());
         for (Command cm : commands){
             if(cm.getName().equals(info.getName())){
                 if(Arrays.equals(info.getArgsType(), cm.getArgs())){
@@ -39,7 +44,6 @@ public class CommandManager {
                             lasts.pollFirst();
                         }
                         lasts.addLast(cm.getName());
-                        System.out.println("команда запущена: " + info.getName());
                         return cm.Execute(info.getArgs(), id);
                     }
                 }

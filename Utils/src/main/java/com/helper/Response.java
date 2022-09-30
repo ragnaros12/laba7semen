@@ -22,7 +22,7 @@ public class Response implements Serializable{
     @Override
     public String toString() {
         StringBuilder builder = new StringBuilder();
-        for (Serializable s: arrayList) {
+        for (Serializable s : arrayList) {
             builder.append(s.toString()).append("\n");
         }
         return builder.toString();

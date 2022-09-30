@@ -8,11 +8,9 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class CommandInfo implements Serializable {
-
     static final long serialVersionUID = 42L;
     private String name;
     private Object[] args;
-
     private String login, password;
 
     public CommandInfo(String name, Object[] args, String login, String password) {
@@ -21,8 +19,6 @@ public class CommandInfo implements Serializable {
         this.password = password;
         this.args = args;
     }
-
-
     public String getLogin() {
         return login;
     }

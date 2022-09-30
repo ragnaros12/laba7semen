@@ -13,12 +13,8 @@ public class Clear extends Command{
     public Response Execute(Object[] args, Integer id) {
         List<HumanBeing> list = Tree.getTreeManager().getHumanBeings().stream().filter(u -> u.getIdCreator() == id).collect(Collectors.toList());
         list.forEach(u -> {
-            try {
-                DataBase.getInstance().Remove(u.getId());
+            if(DataBase.getHumanBeingStorage().Remove(u)) {
                 Tree.getTreeManager().getHumanBeings().remove(u);
-            }
-            catch (Exception e){
-
             }
         });
         return new Response("удаление успешно");

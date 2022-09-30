@@ -19,11 +19,11 @@ public class Update extends Command{
                 if (Objects.equals(humanBeing.getId(), id)) {
                     update.setId(id);
 
-                    DataBase.getInstance().Update(humanBeing);
-
-                    Tree.getTreeManager().getHumanBeings().remove(humanBeing);
-                    Tree.getTreeManager().Add(update);
-                    return new Response("замена успешна");
+                    if(DataBase.getHumanBeingStorage().Update(humanBeing)) {
+                        Tree.getTreeManager().getHumanBeings().remove(humanBeing);
+                        Tree.getTreeManager().Add(update);
+                        return new Response("замена успешна");
+                    }
                 }
             }
             return new Response("замена не удалась");
