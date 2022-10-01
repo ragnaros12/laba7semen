@@ -19,6 +19,7 @@ public class Main {
         ConsoleWriteable console = new ConsoleWriteable();
         String login = "", password = "";
 
+        console.Write("Введите Login и два аргументв для входа, Register для регистраиции, и Help для подсказки");
         try {
             while (true) {
                 console.Write("введите команду");
@@ -34,7 +35,7 @@ public class Main {
                     Command cm = CommandManager.find(name);
                     if (cm == null) {
                         console.Write("команды не существует");
-                        break;
+                        continue;
                     }
                     List<Object> arguments = new ArrayList<>();
                     if (comma.length - 1 == Arrays.stream(cm.getArgs()).filter(u -> u != ArgsType.HumanBeing).count()) {

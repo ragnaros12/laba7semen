@@ -258,3 +258,12 @@
 15:29:52.391 [ForkJoinPool-1-worker-9] INFO  org.server.Main - сервер принял подключение
 15:29:52.413 [ForkJoinPool-1-worker-9] INFO  org.server.Main - данные присланы, команда show
 15:29:52.436 [ForkJoinPool-1-worker-9] INFO  org.server.Main - ответ отправлен
+07:13:40.028 [main] INFO  org.server.Main - сервер стартовал
+07:13:45.234 [main] INFO  org.server.Main - юзер подключен
+07:13:50.328 [ForkJoinPool-1-worker-9] ERROR org.server.Main - ошибка при обработке или чтении: Connection reset
+07:14:09.878 [main] INFO  org.server.Main - юзер подключен
+07:15:09.455 [ForkJoinPool-1-worker-9] ERROR org.server.Main - ошибка при обработке или чтении: Connection reset
+07:15:11.183 [main] INFO  org.server.Main - юзер подключен
+07:15:13.622 [ForkJoinPool-1-worker-9] INFO  org.server.Main - сервер принял подключение
+07:15:13.637 [ForkJoinPool-1-worker-9] INFO  org.server.Main - данные присланы, команда help
+07:15:13.660 [ForkJoinPool-1-worker-9] INFO  org.server.Main - ответ отправлен
