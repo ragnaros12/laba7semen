@@ -12,6 +12,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) throws Exception {
+        try{
         Client client = new Client("127.0.0.1", 1002);
         client.connect();
 
@@ -20,7 +21,7 @@ public class Main {
         String login = "", password = "";
 
         console.Write("Введите Login и два аргументв для входа, Register для регистраиции, и Help для подсказки");
-        try {
+
             while (true) {
                 console.Write("введите команду");
                 String[] comma = consoleRead.read().split(",");
@@ -59,7 +60,7 @@ public class Main {
                 }
             }
         } catch (Exception e) {
-            e.printStackTrace();
+            System.out.println("ошибка");
         }
 
     }

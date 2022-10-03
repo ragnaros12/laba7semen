@@ -267,3 +267,5 @@
 07:15:13.622 [ForkJoinPool-1-worker-9] INFO  org.server.Main - сервер принял подключение
 07:15:13.637 [ForkJoinPool-1-worker-9] INFO  org.server.Main - данные присланы, команда help
 07:15:13.660 [ForkJoinPool-1-worker-9] INFO  org.server.Main - ответ отправлен
+08:31:07.199 [main] INFO  org.server.Main - сервер стартовал
+08:31:32.381 [main] INFO  org.server.Main - сервер стартовал
